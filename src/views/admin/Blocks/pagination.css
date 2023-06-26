@@ -1,0 +1,117 @@
+/*react-paginate用のCSS設定*/
+.containerClassName {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.pageClassName {
+    margin: 3px
+}
+
+.pageLinkClassName {
+    text-decoration: none;
+}
+
+.pageLinkClassName:hover {
+    text-decoration: underline;
+}
+
+.previousClassName {
+    margin-right: 8px;
+}
+
+.previousLinkClassName {
+    text-decoration: none;
+}
+
+.previousLinkClassName:hover {
+    text-decoration: underline;
+}
+
+.nextClassName {
+    margin-left: 8px
+}
+
+.nextLinkClassName {
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+.nextLinkClassName:hover {
+    text-decoration: underline;
+    font-family: "DM Sans", sans-serif;
+}
+
+.activeClassName {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    font-family: "DM Sans", sans-serif;
+}
+
+@media (max-width: 767px) {
+    .containerClassName {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        font-size: 0.6rem;
+    }
+
+    .pageClassName {
+        margin: 3px;
+        font-size: 0.6rem;
+    }
+
+    .pageLinkClassName {
+        text-decoration: none;
+        font-size: 0.6rem;
+    }
+
+    .pageLinkClassName:hover {
+        text-decoration: underline;
+        font-size: 0.6rem;
+    }
+
+    .previousClassName {
+        margin-right: 8px;
+        font-size: 0.6rem;
+    }
+
+    .previousLinkClassName {
+        text-decoration: none;
+        font-size: 0.6rem;
+    }
+
+    .previousLinkClassName:hover {
+        text-decoration: underline;
+        font-size: 0.6rem;
+    }
+
+    .nextClassName {
+        margin-left: 8px;
+        font-size: 0.6rem;
+    }
+
+    .nextLinkClassName {
+        text-decoration: none;
+        font-family: "DM Sans", sans-serif;
+        font-size: 0.6rem;
+    }
+
+    .nextLinkClassName:hover {
+        text-decoration: underline;
+        font-family: "DM Sans", sans-serif;
+        font-size: 0.6rem;
+    }
+
+    .activeClassName {
+        border-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        font-family: "DM Sans", sans-serif;
+        font-size: 0.6rem;
+    }
+}
